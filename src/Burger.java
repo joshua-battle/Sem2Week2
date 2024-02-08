@@ -8,7 +8,7 @@ class Burger implements MenuItem {
         this.price = price;
         this.ingredients = ingredients;
     }
-
+//
     @Override
     public String getName() {
         return name;
