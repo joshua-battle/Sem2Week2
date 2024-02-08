@@ -9,6 +9,9 @@ class Burger implements MenuItem {
         this.ingredients = ingredients;
     }
 
+    public Burger() {
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -20,6 +23,8 @@ class Burger implements MenuItem {
     public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
+
+
 
     @Override
     public String toString() {

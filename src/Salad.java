@@ -9,6 +9,9 @@ class Salad implements MenuItem {
         this.ingredients = ingredients;
     }
 
+    public Salad() {
+    }
+
     public void setName(String name) {
         this.name = name;
     }

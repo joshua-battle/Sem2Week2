@@ -9,6 +9,9 @@ class Pizza implements MenuItem {
         this.ingredients = ingredients;
     }
 
+    public Pizza() {
+    }
+
     public void setName(String name) {
         this.name = name;
     }
